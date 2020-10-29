@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.nav {
+    width: 20%;
+    height: 50px; /*target 50 / contexto 1080  */
+    margin: 0 auto;
+    text-align: center;
+    background-color: #eacac3;
+    position: relative;
+    
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container table {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container table th, td {
+    padding: 20px;
+}
+
+a {
+    font: bold Calibri, sans-serif;
+    font-size: 18px; /* target 20 / context 16 = 1.25 */
+    text-decoration: none;
+    color: grey;
+}
+
+#back {
+    position: absolute;
+    top: 20px;
+    left: -200px;
+    
+}
+
+#back:hover {
+    color: black;
+}
